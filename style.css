@@ -1,0 +1,31 @@
+body {
+  background-color: grey;
+}
+
+.blur {
+  background-image: url(gambar.jpg);
+  background-size: cover;
+  filter: blur(5px);
+}
+
+
+.my-element:hover {
+  background-color: green;
+}
+
+.card-surat {
+  cursor: pointer;
+    transition: 1s;
+}
+
+.card-surat:hover {
+    background: #cdff58;
+}
+
+.hidden-button {
+    display: none;
+}
+
+.row {
+    color: black;
+}
